@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de Minijogos Minecraft</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <img class="banner-img" src="https://img.freepik.com/fotos-premium/paisagem-de-voxel-digital-com-arvores-e-montanhas-que-se-assemelham-a-um-ambiente-de-videogame_368215-899.jpg" alt="Paisagem Voxel Minecraft">
+        <div class="header-text">
+            <h1>O Guia Definitivo dos Minijogos</h1>
+            <p class="subtitle">Clique em um dos modos abaixo para ver as estratégias!</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><button onclick="mostrarJogo('bedwars')">Bed Wars</button></li>
+            <li><button onclick="mostrarJogo('skywars')">SkyWars</button></li>
+            <li><button onclick="mostrarJogo('thebridge')">The Bridge</button></li>
+            <li><button onclick="mostrarJogo('buildbattle')">Build Battle</button></li>
+        </ul>
+    </nav>
+
+    <main>
+        
+        <div id="mensagem-inicial" class="introducao">
+            <p>Selecione um dos minijogos no menu acima para abrir os detalhes, mecânicas e dicas de sobrevivência de cada um!</p>
+        </div>
+
+        <section id="bedwars" class="card-jogo escondido">
+            <button class="btn-fechar" onclick="fecharTodos()">✕ Fechar</button>
+            <h2>Bed Wars: A Defesa Sagrada da Cama</h2>
+            <p>Você e sua equipe nascem em uma ilha flutuante com um único objetivo de vida: proteger a sua cama e destruir a dos adversários. Enquanto a sua cama estiver intacta, você pode renascer infinitas vezes.</p>
+            <h3>Dicas de Sobrevivência:</h3>
+            <ul>
+                <li><strong>A Economia da Ilha:</strong> Os geradores da sua base cospem ferro e ouro automaticamente.</li>
+                <li><strong>A Estratégia de Defesa:</strong> Faça uma defesa em camadas usando lã, madeira e endstone.</li>
+            </ul>
+        </section>
+
+        <section id="skywars" class="card-jogo escondido">
+            <button class="btn-fechar" onclick="fecharTodos()">✕ Fechar</button>
+            <h2>SkyWars: Caos Rápido nas Alturas</h2>
+            <p>O SkyWars é a definição de adrenaline pura. Quinze segundos depois que a partida começa, metade dos jogadores já caiu no vazio. Seja o último sobrevivente.</p>
+            <h3>Dicas de Sobrevivência:</h3>
+            <ul>
+                <li><strong>O Dilema do Início:</strong> Escolha entre o <em>Rush</em> imediato ou coletar o seu <em>Loot</em> com calma.</li>
+                <li><strong>Os Projéteis:</strong> Um ovo ou uma bola de neve bem lançada pode derrubar o inimigo direto para o limbo.</li>
+            </ul>
+        </section>
+
+        <section id="thebridge" class="card-jogo escondido">
+            <button class="btn-fechar" onclick="fecharTodos()">✕ Fechar</button>
+            <h2>The Bridge: O Xadrez do PvP</h2>
+            <p>Cada jogador tem uma base com um portal no final e uma ponte estreita que conecta os dois lados. O objetivo é cruzar a ponte e pular dentro do gol do adversário 5 vezes para vencer.</p>
+            <h3>Dicas de Sobrevivência:</h3>
+            <ul>
+                <li><strong>A Arte do Bypass:</strong> Crie pontes auxiliares por cima ou por baixo do mapa para contornar o defensor e pontuar de surpresa.</li>
+            </ul>
+        </section>
+
+        <section id="buildbattle" class="card-jogo escondido">
+            <button class="btn-fechar" onclick="fecharTodos()">✕ Fechar</button>
+            <h2>Build Battle: O Combate dos Blocos</h2>
+            <p>Aqui, as espadas dão lugar às ferramentas de construção. O jogo sorteia um tema secreto e dá a todos os jogadores exatamente cinco minutos para construir.</p>
+            <h3>Dicas de Sobrevivência:</h3>
+            <ul>
+                <li><strong>Uso de Cores:</strong> Evite construções monocromáticas. Use paletas de cores complementares para chamar a atenção dos juízes.</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Meu Primeiro Blog Interativo de Minecraft.</p>
+    </footer>
